@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hard3ResultActivity">
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="258dp"
+        android:layout_height="258dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nanakusa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:padding="10sp"
+        android:text="「すずしろ」はだいこんのことだよ。１年の健康を祈って１月７日に食べる七草がゆには、春の七草（せり、なずな、ごぎょう、はこべら、ほとけのざ、すずな、すずしろ）を入れるんだよ。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="onNext"
+        android:src="@drawable/kekka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

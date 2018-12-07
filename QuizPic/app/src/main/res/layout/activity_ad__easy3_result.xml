@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AD_Easy3ResultActivity">
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="244dp"
+        android:layout_height="166dp"
+        android:src="@drawable/kaki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:padding="10sp"
+        android:text="答えは牡蠣。身が乳白色で、牛乳（ミルク）と同じように様様な栄養素を含んでいることから「海のミルク」と呼ばれるようになったんだって。
+        特に「亜鉛」という栄養素が豊富らしいよ。亜鉛は美肌や味覚を正常に保つ効果があるんだって。美味しい上に栄養豊富だなんていいことだらけだね。
+        日本最大の料理レシピサイト、クックパッドで東松島の牡蠣を使った料理を紹介しているから「東松島」「クックパッド」で検索してね！"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="157dp"
+        android:layout_height="79dp"
+        android:onClick="onNext"
+        android:src="@drawable/ad_kekka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

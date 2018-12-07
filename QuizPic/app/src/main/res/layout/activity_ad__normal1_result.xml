@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AD_Normal1ResultActivity">
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="280dp"
+        android:layout_height="192dp"
+        android:src="@drawable/sake_kirimi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:padding="10sp"
+        android:text="鮭は身の色が赤く見えるため、赤身魚と思われがちですが、白身の魚に分類されます。
+        川で生まれた鮭が海へ行き、海でエビなどの仲間をエサとして食べるうちにエサに含まれる赤い色素によって身の色がだんだん赤くなっていくんだ。"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="92dp"
+        android:onClick="onNext"
+        android:src="@drawable/ad_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

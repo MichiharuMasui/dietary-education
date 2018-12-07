@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="masuilab.apps.eatquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Easy1Activity" />
+        <activity android:name=".Easy1ResultActivity" />
+        <activity android:name=".Easy2Activity" />
+        <activity android:name=".Easy2ResultActivity" />
+        <activity android:name=".Easy3Activity" />
+        <activity android:name=".Easy3ResultActivity" />
+        <activity android:name=".Normal1Activity" />
+        <activity android:name=".Normal1ResultActivity" />
+        <activity android:name=".Normal2Activity" />
+        <activity android:name=".Normal2ResultActivity" />
+        <activity android:name=".Normal3Activity" />
+        <activity android:name=".Normal3ResultActivity" />
+        <activity android:name=".Hard1Activity" />
+        <activity android:name=".Haed1ResultActivity" />
+        <activity android:name=".Hard2Activity" />
+        <activity android:name=".Hard2ResultActivity" />
+        <activity android:name=".Hard3Activity" />
+        <activity android:name=".Hard3ResultActivity" />
+        <activity android:name=".LevelSelect" />
+        <activity android:name=".ResultEasy" />
+        <activity android:name=".ResultNormal" />
+        <activity android:name=".ResultHard" />
+        <activity android:name=".AD_LevelSelect" />
+        <activity android:name=".AD_Easy1Activity" />
+        <activity android:name=".AD_Easy1ResultActivity" />
+        <activity android:name=".AD_Easy2Activity" />
+        <activity android:name=".AD_Easy2ResultActivity" />
+        <activity android:name=".AD_Easy3Activity" />
+        <activity android:name=".AD_Easy3ResultActivity" />
+        <activity android:name=".AD_ResultEasy" />
+        <activity android:name=".AD_Normal1Activity" />
+        <activity android:name=".AD_Normal1ResultActivity" />
+        <activity android:name=".AD_Normal2Activity" />
+        <activity android:name=".AD_Normal2ResultActivity" />
+        <activity android:name=".AD_Normal3Activity" />
+        <activity android:name=".AD_Normal3ResultActivity" />
+        <activity android:name=".AD_ResultNormalActivity" />
+        <activity android:name=".AD_Hard1Activity" />
+        <activity android:name=".AD_Hard1ResultActivity" />
+        <activity android:name=".AD_Hard2Activity" />
+        <activity android:name=".AD_Hard2ResultActivity" />
+        <activity android:name=".AD_Hard3Activity" />
+        <activity android:name=".AD_Hard3ResultActivity" />
+        <activity android:name=".AD_ResultHard"></activity>
+    </application>
+
+</manifest>

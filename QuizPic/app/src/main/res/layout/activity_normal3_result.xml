@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Normal3ResultActivity">
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="227dp"
+        android:layout_height="216dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/normal3kaitou"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:padding="10sp"
+        android:text="ちぢみほうれん草は冬の寒さから身をまもるために葉をちぢめて、こおるのをふせいで水分を減らすことで、甘くなっていくんだ。ふつうのほうれん草に比べて栄養があるんだよ。そしてなんといっても、東松島の特産なんだ！"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:onClick="onNext"
+        android:src="@drawable/kekka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

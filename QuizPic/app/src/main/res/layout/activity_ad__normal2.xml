@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AD_Normal2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:padding="10sp"
+        android:text="第２問：この魚の名前は？"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <ImageView
+        android:id="@+id/karei"
+        android:layout_width="340dp"
+        android:layout_height="253dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/karei"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="153dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:cropToPadding="false"
+        android:onClick="onButton3"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
+        app:srcCompat="@drawable/karei_botton" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="153dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:cropToPadding="false"
+        android:onClick="onButton4"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964"
+        app:srcCompat="@drawable/hirame_botton" />
+
+</android.support.constraint.ConstraintLayout>
