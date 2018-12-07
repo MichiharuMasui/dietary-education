@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">野菜博士・栄養博士</string>
+    <string name="description">ほうれん草</string>
+    <string name="title_activity_play5_result">Play5ResultActivity</string>
+</resources>

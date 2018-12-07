@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ei_Play1Activity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="問題１：ヒントは「うみのもの」。いっぱい食べると体が大きくなった気がする！？"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="242dp"
+        android:layout_height="491dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803">
+
+        <ImageView
+            android:id="@+id/aka"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/aka" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="242dp"
+        android:layout_height="492dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803">
+
+        <ImageView
+            android:id="@+id/kiiro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/kiiro" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="242dp"
+        android:layout_height="492dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803">
+
+        <ImageView
+            android:id="@+id/midori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/midori" />
+
+    </RelativeLayout>
+
+    <!-- <ImageView
+        android:id="@+id/image_view_hou"
+        android:layout_width="125dp"
+        android:layout_height="103dp"
+        android:src="@drawable/hourensou1" />
+
+    <ImageView
+        android:id="@+id/image_view_nin"
+        android:layout_width="116dp"
+        android:layout_height="94dp"
+        android:src="@drawable/ninjin"
+        tools:layout_editor_absoluteX="482dp"
+        tools:layout_editor_absoluteY="0dp" /> -->
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_aice"
+        android:layout_width="124dp"
+        android:layout_height="147dp"
+        android:src="@drawable/aiceplant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+    <!-- android:contentDescription="@string/description"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_view" /> -->
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_aspara"
+        android:layout_width="124dp"
+        android:layout_height="147dp"
+        android:src="@drawable/aspara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+    <!-- android:contentDescription="@string/description"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/text_view" /> -->
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_jaga"
+        android:layout_width="124dp"
+        android:layout_height="147dp"
+        android:src="@drawable/jaga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_kaki"
+        android:layout_width="124dp"
+        android:layout_height="147dp"
+        android:src="@drawable/kaki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_syako"
+        android:layout_width="124dp"
+        android:layout_height="147dp"
+        android:src="@drawable/syako"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <masuilab.apps.drquiz.CustomImageView
+        android:id="@+id/image_view_answer1"
+        android:layout_width="175dp"
+        android:layout_height="92dp"
+        android:onClick="onButton"
+        android:src="@drawable/answer1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

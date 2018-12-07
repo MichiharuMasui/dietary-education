@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="masuilab.apps.drquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".STARTActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Play2Activity" />
+        <activity android:name=".Play2ResultActivity" />
+        <activity android:name=".Play3Activity" />
+        <activity android:name=".Play3ResultActivity" />
+        <activity android:name=".Play4Activity" />
+        <activity android:name=".Play4ResultActivity" />
+        <activity android:name=".Play5Activity" />
+        <activity android:name=".Play5ResultActivity" />
+        <activity android:name=".endActivity" />
+        <activity android:name=".Ei_MainActivity" />
+        <activity android:name=".Ei_Play1Activity" />
+        <activity android:name=".Ei_Play1ResultActivity" />
+        <activity android:name=".Ei_Play2Activity" />
+        <activity android:name=".Ei_Play2ResultActivity" />
+        <activity android:name=".Ei_Play3Activity" />
+        <activity android:name=".Ei_Play3ResultActivity" />
+        <activity android:name=".Ei_endActivity"></activity>
+    </application>
+
+</manifest>
