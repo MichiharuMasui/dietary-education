@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result4Activity">
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="94dp"
+        android:layout_height="78dp"
+        android:src="@drawable/maru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:layout_width="691dp"
+        android:layout_height="68dp"
+        android:text="こたえは「ねぶり箸」。下の絵もマナー違反だよ！気をつけようね！"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <ImageView
+        android:layout_width="285dp"
+        android:layout_height="305dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/no15" />
+
+
+    <ImageView
+        android:layout_width="317dp"
+        android:layout_height="304dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/no17" />
+    <!-- </LinearLayout> -->
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"> -->
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="84dp"
+        android:onClick="onNext"
+        android:src="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:src="@drawable/tataki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:src="@drawable/kakihashi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+
+
+</android.support.constraint.ConstraintLayout>

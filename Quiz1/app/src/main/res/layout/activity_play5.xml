@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Play5Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:padding="10sp"
+        android:text="第５問：食べるときの姿勢で正しいのはどれかな？"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="328dp"
+        android:layout_height="365dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton13"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758"
+        app:srcCompat="@drawable/no20" />
+
+
+    <!-- </LinearLayout> -->
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"> -->
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="309dp"
+        android:layout_height="339dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton15"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734"
+        app:srcCompat="@drawable/no22" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="355dp"
+        android:layout_height="328dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton16"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289"
+        app:srcCompat="@drawable/no23" />
+
+</android.support.constraint.ConstraintLayout>

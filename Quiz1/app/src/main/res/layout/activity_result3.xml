@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="10sp"
+        android:text="マナー違反の箸の使い方、気をつけてね！"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="130dp"
+        android:layout_height="87dp"
+        android:src="@drawable/maru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:src="@drawable/nigiri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:src="@drawable/sashi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="51dp"
+        android:src="@drawable/awase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="327dp"
+        android:layout_height="213dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton6"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351"
+        app:srcCompat="@drawable/no6" />
+    <!-- </LinearLayout> -->
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"> -->
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="357dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton7"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326"
+        app:srcCompat="@drawable/no7" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="320dp"
+        android:layout_height="226dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton8"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
+        app:srcCompat="@drawable/no8" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="84dp"
+        android:onClick="onNext"
+        android:src="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="masuilab.apps.quiz1.PlayActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="第１問：和食の配膳（はいぜん）には、いろいろな約束があります。ご飯の位置で正しいのは？"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="488dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146"
+        app:srcCompat="@drawable/no1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="491dp"
+        android:layout_height="436dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton2"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:srcCompat="@drawable/no2" />
+
+
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"> -->
+
+
+    <!-- <ImageView
+        android:layout_width="362dp"
+        android:layout_height="257dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:onClick="onResult"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no1"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" /> -->
+
+    <!-- <ImageView
+        android:layout_width="362dp"
+        android:layout_height="257dp"
+        android:adjustViewBounds="true"
+        android:onClick="onResult"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no2"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" /> -->
+
+    <!-- </LinearLayout> -->
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上"/>
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下"/>
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 3" />
+    </LinearLayout> -->
+
+</android.support.constraint.ConstraintLayout>

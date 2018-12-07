@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="masuilab.apps.quiz1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlayActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Result2Activity" />
+        <activity android:name=".Play2Activity" />
+        <activity android:name=".Play3Activity" />
+        <activity android:name=".Result3Activity" />
+        <activity android:name=".Play4Activity" />
+        <activity android:name=".Result4Activity" />
+        <activity android:name=".Play5Activity" />
+        <activity android:name=".Result5Activity" />
+        <activity android:name=".endActivity" />
+        <activity android:name=".Play6Activity" />
+        <activity android:name=".Result6Activity" />
+        <activity android:name=".Play7Activity" />
+        <activity android:name=".Result7Activity" />
+        <activity android:name=".end2Activity" />
+        <activity android:name=".end3Activity" />
+        <activity android:name=".FinalResultActivity"></activity>
+    </application>
+
+</manifest>

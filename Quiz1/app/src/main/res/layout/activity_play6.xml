@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Play6Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:padding="10sp"
+        android:text="第６問：下の４つの絵は「箸の正しくない使い方」だよ。この中で「持ち箸」と呼ばれるのはどれかな？"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="317dp"
+        android:layout_height="394dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton17"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707"
+        app:srcCompat="@drawable/no9" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="306dp"
+        android:layout_height="375dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton18"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        app:srcCompat="@drawable/no10" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="309dp"
+        android:layout_height="335dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton19"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        app:srcCompat="@drawable/no11" />
+
+    <!-- <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="180dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/flame_style"
+        android:cropToPadding="false"
+        android:onClick="onButton20"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/no12" /> -->
+
+</android.support.constraint.ConstraintLayout>
